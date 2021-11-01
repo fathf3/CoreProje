@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CoreDemo.Controllers
 {
-    public class Category : Controller
+    public class DefaultController : Controller
     {
-        public IActionResult Index()
+        public PartialViewResult Partial1()
         {
-            return View();
+            return PartialView();
         }
     }
 }
